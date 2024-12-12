@@ -5,7 +5,7 @@
 
 class Duck : public Waterfowl {
 public:
-    void eat(const std::string& food) override {
+    void eat(const std::string& food)  {
         std::cout << "Duck eats grains." << std::endl;
     }
 };

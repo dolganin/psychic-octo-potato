@@ -5,7 +5,7 @@
 
 class Frog : public Amphibious {
 public:
-    void eat(const std::string& food) override {
+    void eat(const std::string& food)  {
         std::cout << "Frog eats insects." << std::endl;
     }
 };
